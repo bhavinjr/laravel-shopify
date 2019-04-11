@@ -37,9 +37,9 @@ Route::group(['middleware' => ['web']], function () {
     */
 
     Route::get(
-        '/login',
+        '/shopify/login',
         'OhMyBrew\ShopifyApp\Controllers\AuthController@index'
-    )->name('login');
+    )->name('shopifylogin');
 
     /*
     |--------------------------------------------------------------------------
