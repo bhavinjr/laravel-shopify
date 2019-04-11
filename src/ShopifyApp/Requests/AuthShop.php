@@ -68,6 +68,6 @@ class AuthShop extends FormRequest
      */
     protected function getRedirectUrl()
     {
-        return $this->redirector->getUrlGenerator()->route('login');
+        return $this->redirector->getUrlGenerator()->route('shopifylogin');
     }
 }
